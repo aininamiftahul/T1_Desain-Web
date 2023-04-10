@@ -1,86 +1,83 @@
 <!doctype html>
-```
 <head>
     <title>T1 Desain WEB SENSUS PENDUDUK</title>
     <link rel="stylesheet" href="stye.css">
 </head>
 <body>
+    <div class="container">
     <h2>FORMULIR SENSUS PENDUDUK WARGA NEGARA INDONESIA 2023</h2>
     <h6>Oleh Komisi Pemilihan Umum</h6>
-    <h4>I. DATA KELUARGA</h4>
-    <label for="namakk">1. Nama Kepala Keluarga</label>
-    <input type="text" id="namakk" nama="namakk">
-    <br>
-    <label for="nokk">2. No Kartu Keluarga</label>
-    <input type="text" id="nokk" name="nokk">
-    <br>
-    <label for="alamatkk">3. Alamat Keluarga</label>
-    <input type="text" id="alamatkk" name="alamatkk">
-    <label for="kodeposkk">Kode Pos</label>
-    <input type="text" id="kodeposskk" name="kodeposkk">
-    <br>
-    <br>
-    <h4>II. DATA INDIVIDU</h4>
-    <label for="namadi">1. Nama Lengkap</label>
-    <input type="text" id="namadi" nama="namadi">
-    <br>
-    <label for="gelardi">2. Gelar</label>
-    <select class="gelardi">
-        <option selected>Pilih</option>
-        <option value="1">Diploma</option>
-        <option value="2">Sarjana</option>
-        <option value="3">Magister</option>
-        <option value="4">Doktor / Profesor</option>
-        <option value="5">Tidak Ada</option>
-    </select>
-    <br>
-    <label for="alamatdi">3. Alamat Sebelumnya</label>
-    <input type="text" id="alamatdi" nama="alamatdi">
-    <label for="kodeposdi">Kode Pos</label>
-    <input type="text" id="kodeposdi" nama="kodeposdi">
-    <br>
-    <label for="paspordi">4. No Paspor</label>
-    <input type="text" id="paspordi" nama="paspordi">
-    <br>
-    <label for="jeniskelamindi">5. Jenis Kelamin</label>
-    <select class="jeniskelamindi">
-        <option selected>Pilih</option>
-        <option value="1">Laki-Laki</option>
-        <option value="2">Perempuan</option>
-    </select>
-    <br>
-    <label for="tempatlahirdi">6. Tempat Lahir</label>
-    <input type="text" id="tempatlahirdi" nama="tempatlahirdi">
-    <br>
-    <label for="">7. Tanggal Lahir</label>
-    <input type="date">
-    <br>
-    <label for="umurdi">8. Umur</label>
-    <input type="text" id="umurdi" nama="umurdi">
-    <br>
-    <label for="noakadi">9. No Akta Kelahiran/Surat Kenal Lahir</label>
-    <input type="text" id="noakadi" nama="noakadi">
-    <br>
-    <label for="goldarid">10. Golongan Darah</label>
-    <select class="goldarid">
-        <option selected>Pilih</option>
-        <option value="1">A</option>
-        <option value="2">B</option>
-        <option value="3">AB</option>
-        <option value="4">O</option>
-        <option value="5">A+</option>
-        <option value="6">A-</option>
-        <option value="7">B+</option>
-        <option value="8">B-</option>
-        <option value="9">AB+</option>
-        <option value="10">AB-</option>
-        <option value="11">O+</option>
-        <option value="12">O-</option>
-        <option value="13">Tidak tahu</option>
-    </select>
-    <br>
-    <label for="agamaid">11. Agama/Kepercayaan</label>
-    <select class="agamaid">
+
+<div class="isi">
+    <h4>I. Data Keluarga</h4>
+    <form action="">
+        <label for="namakk">1. Nama Kepala Keluarga</label>
+        <input style="margin-left: 100px;" type="text"> <br>
+        <label for="nokk">2. No. Kartu Keluarga</label>
+        <input style="margin-left: 123px;" type="number"><br>
+        <label for="alamat">3. Alamat Keluarga</label>
+        <input style="margin-left: 139px;" type="text"> <br>
+        <label style="margin-left: 15px;" for="pos">Kode Pos</label>
+        <input style="margin-left: 186px;" type="number">
+    </form>
+</div>
+<div class="isi">
+    <h4>II. Data Individu</h4>
+    <form action="">
+        <label for="namadi">1. Nama Lengkap</label>
+        <input style="margin-left: 145px;" type="text"> <br>
+        <label for="gelar">2. Gelar</label>
+        <select style="margin-left: 206px; margin-bottom: 10px; width: 30%; padding: 5px; border-radius: 5px;" class="gelardi">
+            <option selected>Pilih</option>
+            <option value="1">Diploma</option>
+            <option value="2">Sarjana</option>
+            <option value="3">Magister</option>
+            <option value="4">Doktor / Profesor</option>
+            <option value="5">Tidak Ada</option>
+        </select> <br>
+        <label for="alamatdi">3. Alamat Sebelumnya</label>
+        <input style="margin-left: 111px;" type="text" name="" id=""> <br>
+        <label style="margin-left: 15px;" for="pos">Kode Pos</label>
+        <input style="margin-left: 178px;" type="number"> <br>
+        <label for="paspordi">4. Nomer Paspor</label>
+        <input style="margin-left: 146px;" type="number"><br>
+        <label for="jeniselamin">5. Jenis Kelamin</label>
+        <select style="margin-left: 147px; margin-bottom: 10px; width: 30%; padding: 5px; border-radius: 5px;" class="jeniskelamindi">
+            <option selected>Pilih</option>
+            <option value="1">Laki-Laki</option>
+            <option value="2">Perempuan</option>
+        </select> <br>
+        <label for="tempatlahirdi">6. Tempat Lahir</label>
+        <input style="margin-left: 153px;" type="text" id="tempatlahirdi" nama="tempatlahirdi">
+        <br>
+        <label for="">7. Tanggal Lahir</label>
+        <input style="margin-left: 150px;" type="date">
+        <br>
+        <label for="umurdi">8. Umur</label>
+        <input style="margin-left: 203px;" type="text" id="umurdi" nama="umurdi">
+        <br>
+        <label for="noakadi">9. No Akta Kelahiran/Surat Kenal Lahir</label>
+        <input type="text" id="noakadi" nama="noakadi">
+        <br>
+        <label for="goldarid">10. Golongan Darah</label>
+        <select style="margin-left: 126px; margin-bottom: 10px; width: 30%; padding: 5px; border-radius: 5px;" class="goldarid">
+            <option selected>Pilih</option>
+            <option value="1">A</option>
+            <option value="2">B</option>
+            <option value="3">AB</option>
+            <option value="4">O</option>
+            <option value="5">A+</option>
+            <option value="6">A-</option>
+            <option value="7">B+</option>
+            <option value="8">B-</option>
+            <option value="9">AB+</option>
+            <option value="10">AB-</option>
+            <option value="11">O+</option>
+            <option value="12">O-</option>
+            <option value="13">Tidak tahu</option>
+        </select><br>
+        <label for="agamaid">11. Agama/Kepercayaan</label>
+    <select style="margin-left: 98px; margin-bottom: 10px; width: 30%; padding: 5px; border-radius: 5px;" class="agamaid">
         <option selected>Pilih</option>
         <option value="1">Islam</option>
         <option value="2">Kristen</option>
@@ -92,7 +89,7 @@
     </select>
     <br>
     <label for="statusid">12. Status/Hubungan Dalam Keluarga</label>
-    <select class="statusid">
+    <select style="margin-left: 12px; margin-bottom: 10px; width: 30%; padding: 5px; border-radius: 5px;" class="statusid">
         <option selected>Pilih</option>
         <option value="1">Suami</option>
         <option value="2">Istri</option>
@@ -100,7 +97,7 @@
     </select>
     <br>
     <label for="pendidikanid">13. Pendidikan Terakhir</label>
-    <select class="pendidikanid">
+    <select style="margin-left: 100px; margin-bottom: 10px; width: 30%; padding: 5px; border-radius: 5px;" class="pendidikanid">
         <option selected>Pilih</option>
         <option value="1">Tidak/Belum Sekolah</option>
         <option value="2">Tidak tamat SD/Sederajat</option>
@@ -116,24 +113,20 @@
     <br>
     <h4>III. DATA ORANG TUA</h4>
     <label for="nikibu">1. NIK Ibu</label>
-    <br>
-    <input type="text" id="nikibu" nama="nikibu">
-    <br>
+    <input style="margin-left: 183px;" type="text" id="nikibu" nama="nikibu"><br>
     <label for="namaibu">2. Nama Lengkap Ibu</label>
-    <br>
-    <input type="text" id="namaibu" nama="namaibu">
-    <br>
+    <input style="margin-left: 113px;" type="text" id="namaibu" nama="namaibu"><br>
     <label for="nikayah">3. NIK Ayah</label>
-    <br>
-    <input type="text" id="nikayah" nama="nikayah">
-    <br>
+    <input type="text" style="margin-left: 172px;" id="nikayah" nama="nikayah"><br>
     <label for="namaayah">4. Nama Lengkap Ayah</label>
-    <br>
-    <input type="text" id="namaayah" nama="namaayah">
-    <br>
+    <input style="margin-left: 103px;" type="text" id="namaayah" nama="namaayah"><br>
+    
+    </form>
     <input type="checkbox" id="pernyataan" name="pernyataan">
     <label for="pernyataan">Demikian formulir ini saya isi dengan sesungguhnya apabila keterangan tidak sesuai dengan keadaan sebenarnya, saya bersedia dikenakan sanksi sesuai ketentuan perundang-undangan yang berlaku</label>
     <br>
-    <input type="submit" value="Submit">
+    <a href=""><button class="submit">Submit</button></a>
+</div>
+</div>
 </body>
 </html>
